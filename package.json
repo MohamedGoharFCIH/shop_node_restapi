@@ -1,0 +1,25 @@
+{
+  "name": "shop_node_restapi",
+  "version": "1.0.0",
+  "description": "simple restapi for online order products in nodejs  ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedGoharFCIH/shop_node_restapi.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "restapi",
+    "shop"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedGoharFCIH/shop_node_restapi/issues"
+  },
+  "homepage": "https://github.com/MohamedGoharFCIH/shop_node_restapi#readme"
+}
