@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/MohamedGoharFCIH/shop_node_restapi#readme",
   "dependencies": {
+    "mysql2": "^2.3.3",
     "sequelize": "^6.11.0"
   }
 }
