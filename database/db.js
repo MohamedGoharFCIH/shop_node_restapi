@@ -1,12 +1,15 @@
+const config = require('../config');
 const Sequelize = require("sequelize");
 
+console.log("connect to db", config.database_name)
 const sequelize = new Sequelize(
-    process.env.database_name,
-    process.env.database_username,
-    process.env.database_password,
+   config.database_name,
+   config.database_username,
+   config.database_password,
     {
-      host: process.env.host,
-      dialect: 'mysql'
+      host: config.host,
+      dialect: 'mysql',
+      logging: false
     }
   );
 
