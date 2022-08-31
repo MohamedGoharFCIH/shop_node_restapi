@@ -55,7 +55,7 @@ describe('POST  api/user/login user', async () => {
 
 
 
-describe('POST  api/order/createorder  ', async () => {
+describe('POST  api/order/create ', async () => {
     it('it should retrun order if exists req.userData.userId and all procuts in array exists ', async () => {
         const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFobWVkOUBnbWFpbC5jb20iLCJpZCI6OCwiaWF0IjoxNjYxOTIwODk0LCJleHAiOjE2NjIwMDcyOTR9.vr8g6spE6NUsfa6Llj7A5bQOSJhZH5GHd0o5cWnb_4g "
         const products = [{ id: 1, price: 5000, quantity: 2 }, { id: 2, price: 8000, quantity: 1 }]
