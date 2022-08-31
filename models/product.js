@@ -3,6 +3,7 @@ const Sequelize = require('sequelize');
 const sequelize = require('../database/db');
 
 const Product = sequelize.define('product', {
+
     id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
@@ -21,9 +22,17 @@ const Product = sequelize.define('product', {
     quantity: {
         type: Sequelize.INTEGER,
         allowNull: false,
+    },
+    created_at: {
+        type: Sequelize.DATEONLY,
+        allowNull: true,
+        defaultValue: Sequelize.NOW
     }
 
 
-});
+},
+    { timestamps: false }
+);
+
 
 module.exports = Product;
